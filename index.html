@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Teste</title>
+</head>
+<body>
+    <div id="container"> <!--img and box organization div-->
+
+        <img src="res/dinopfp.jpg" alt="PFP" id="pfp"> <!--pfp control-->
+
+        <div id="main-box"> <!--main box control (all)-->
+            Welcome back!
+            <div id="text-box"> <!--text box control (content)-->
+                <form id="signin"> <!--form control-->
+                    <label for="login">Username/E-mail</label>
+                    <input type="text" id="login">
+                    <label for="login">Password</label>
+                    <input type="text" id="password">
+                    <span id="resetpassword">Forgot your password?</span>
+                    <div id="login-box">
+                        <span id="login-btn">Log In</span>
+                    </div>
+                </form>
+                <div id="qrcode-box">
+                    <span id="qrcode-login">Log In with QrCode</span>
+                    <img src="res/qrcode.jpg" alt="qrcode" id="qrcode">
+                </div>
+            </div>
+            <p>First time? <span id="register">Register</span></p>
+        </div>
+        
+    </div>
+</body>
+</html>
